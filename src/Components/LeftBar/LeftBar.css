@@ -1,0 +1,133 @@
+#left-bar{
+    width: 300px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    margin: 8px 30px;
+    position: fixed;
+}
+.left{
+    position: relative;
+    width: 300px;
+}
+/* ? Profile data css */
+.profile-data{
+    height: 400px;
+    position: relative;
+    box-shadow: 2px 3px 6px 3px #c0bfbf;
+    border-radius: 8px;
+}
+#cover-pic{
+    width: 100%;
+}
+#user-1{
+    width: 80px;
+    border-radius: 100px;
+    border: 2px solid white;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+.details{
+    margin-top: 35px;
+    margin-left: 8px;
+}
+.data-content{
+    margin-top: 30px;
+}
+.details h1{
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.details h3{
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.views{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 10px;
+}
+.views p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.items{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.my-item{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.my-item img{
+    width: 30px;
+    margin-right: 10px;
+}
+/* ? Recent Css */
+#recent{
+    margin-top: 15px;
+    /* height: 600px; */
+    box-shadow: 2px 3px 6px 3px #c0bfbf;
+    padding: 10px 15px;
+    position: relative;
+    /* margin-bottom: 16px; */
+}
+.recent{
+    margin: 20px 0px;
+}
+.recent h1{
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.skills{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+.skills img{
+    width: 20px;
+    margin-right: 8px;
+}
+#recent h4{
+    position: absolute;
+    bottom: 1%;
+    cursor: pointer;
+    font-size: 20px;
+    left: 0;
+    text-align: center;
+    font-weight: 400;
+    border-top: 1px solid grey;
+    width: 100%;
+}
+@media screen and (max-width:1216px) {
+    #recent{
+        height: 600px;
+    }
+    .left{
+        width: 98%;
+    }
+    #left-bar{
+        position: static;
+        width: 100%;
+        margin: 8px;
+    }
+    .profile-data{
+        height: 600px;
+    }
+}
+@media screen and (max-width:766px) {
+    .profile-data{
+        height: 500px;
+    }
+}
+@media screen and (max-width:454px) {
+    .left{
+        min-width: 18rem;
+    }
+}

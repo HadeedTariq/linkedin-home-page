@@ -1,0 +1,137 @@
+#home{
+    width: 510px;
+    margin-top: 6px;
+    border-radius: 6px;
+}
+/* ?Post css */
+#post{
+    box-shadow: 2px 3px 6px 3px #acababd8;
+    height: 150px;
+    position: relative;
+}
+.write{
+    display: flex;
+    padding: 10px 8px;
+    align-items: center;
+}
+.write h4{
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.write img{
+    width: 50px;
+    border-radius: 100px;
+    margin-right: 8px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(67, 66, 66);
+    width: 25%;
+    border-left: 0;
+    border-bottom: 0;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+.icon img{
+    width: 17px;
+}
+.icon p{
+    font-size: 17px;
+    margin-left: 8px;
+}
+.icon1{
+    background-color: rgb(0, 94, 255);
+    color: white;
+    width: 25%; 
+    padding: 5px 8px;
+    cursor: pointer;
+}
+.icon1 h3{
+    font-weight: 400;
+    text-align: center;
+}
+/* ? Link Post css */
+#link-post{
+    box-shadow: 2px 3px 6px 3px #acababd8;
+    position: relative;
+    margin: 10px 0;
+    padding: 8px 0px;
+    padding-left: 10px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+.user img{
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+}
+.user .title{
+    margin-left: 15px;
+}
+.user .title h2{
+    font-weight: 500;
+    font-size: 23px;
+}
+.post p{
+    margin-left: 9px;
+}
+.post img{
+    width: 95%;
+    margin: 8px;
+}
+.impression{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.likes{
+    display: flex;
+}
+.likes p{
+    margin-left: 8px;
+}
+.likes img{
+    width: 20px;
+}
+.comments{
+    display: flex;
+    margin-right: 20px;
+}
+.comments p{
+    padding: 0px 8px;
+}
+.impression-box{
+    display: flex;
+    justify-content: space-around;
+    padding: 8px 0px;
+    align-items: center;
+    border-top: 1px solid black;
+}
+.impression-box img{
+    width: 25px;
+    cursor: pointer;
+}
+@media screen and (max-width:1216px) {
+    #home{
+        width: 99%;
+    }
+}
+@media screen and (max-width:454px) {
+    #home{
+        width: 22rem;
+    }
+}
